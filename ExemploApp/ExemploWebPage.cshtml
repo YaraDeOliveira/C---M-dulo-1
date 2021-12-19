@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>Exemplo de Web Page</h1>
+    <p>
+
+        @DateTime.Now.ToString("D")
+    </p>
+    <hr/>
+    @{ 
+        int x = 10;
+        int y = 20;
+        int soma = x + y;
+
+        <p>A soma de @x e @y é @soma  </p>
+    }
+    <hr/>
+
+    <ul>
+   @for (int i = 1; i < 10; i++)
+    {
+       <li>Número @i</li>
+
+    }
+    </ul>
+    <hr/>
+
+
+</body>
+</html>
